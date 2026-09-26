@@ -1,6 +1,6 @@
 # 🚀 AI Engineering Learning 101
 
-Welcome to the **AI Engineering Learning 101** repository! This repository contains the complete curriculum, schedule, study materials, and practical implementations covering Machine Learning, Deep Learning, Computer Vision, Natural Language Processing (NLP), and Model Deployment.
+Welcome to the **AI Engineering Learning 101** repository! This repository contains the complete curriculum, schedule, study materials, practical exercises, and student submission tracking covering Machine Learning, Deep Learning, Computer Vision, Natural Language Processing (NLP), and Model Deployment.
 
 ---
 
@@ -41,9 +41,78 @@ Welcome to the **AI Engineering Learning 101** repository! This repository conta
 
 ---
 
-## 📌 Repository Guidelines
+## 🎯 Topic Practical Exercises
 
-- Each main topic has its own directory containing theory notes and practical notebook assignments.
-- Students submitting code should follow either:
-  1. **Fork & Pull Request Workflow**: Fork this repository, work on your copy, and open a PR.
-  2. **Branch Workflow**: Create a new branch named `student/<your-name>` to add your work.
+### 📍 Topic 1: ML – Supervised Learning
+**Task Title:** *"The Smart Real-Estate & Loan Approval Engine"*
+
+* **Part 1: Regression Task (Real-Estate Price Predictor)**
+  * **Dataset:** Kaggle's Boston Housing or California Housing dataset.
+  * **Goal:** Use Linear Regression and Decision Tree Regressor to predict House Prices.
+  * **Deliverables:**
+    * Train vs. Test MSE and $R^2$ score comparison.
+    * Overfitting analysis for Decision Tree Regressor (Train vs. Test performance).
+* **Part 2: Classification Task (Loan Approval Predictor)**
+  * **Dataset:** Loan Prediction Dataset (Analytics Vidhya / Kaggle).
+  * **Goal:** Classify whether a customer will get Loan Approval (`1`) or Rejection (`0`).
+  * **Deliverables:**
+    * Implement and evaluate Logistic Regression, KNN, and Random Forest models.
+    * Compare Confusion Matrix and Precision / Recall reports.
+    * Identify which model produces the lowest False Positives.
+
+---
+
+### 📍 Topic 2: ML – Unsupervised Learning + Recommendation Systems
+**Task Title:** *"The E-Commerce Customer & Product Intelligence Engine"*
+
+* **Task 1 (Clustering):**
+  * **Dataset:** Mall Customer Segmentation Dataset (Kaggle).
+  * **Goal:** Apply K-Means clustering, use the Elbow Method to determine the optimal number of clusters ($K$), and visualize the resulting customer segments.
+* **Task 2 (Recommendation System):**
+  * **Dataset:** MovieLens 100K Dataset.
+  * **Goal:** Build a Collaborative Filtering recommendation model using a User-Item Matrix and Cosine Similarity to generate Top-5 movie recommendations for any given `User ID`.
+
+---
+
+## 📁 Repository Directory & Student Work Tracking
+
+To easily track submissions across **4 students**, all exercise work is organized in the `students/` directory structure below. Each student submits their Jupyter Notebooks (`.ipynb`) or Python scripts (`.py`) inside their designated folder.
+
+### 📂 Directory Structure
+
+```text
+AI-Engineering-Learning101/
+├── 01_Supervised_Learning/         # Reference materials & instructor solutions
+├── 02_Unsupervised_Learning/       # Reference materials & instructor solutions
+│
+└── students/                       # Student Exercise Submissions
+    ├── student_1/                  # Student 1 Work directory
+    │   ├── Topic_01_Supervised_Learning/
+    │   └── Topic_02_Unsupervised_Learning/
+    ├── student_2/                  # Student 2 Work directory
+    │   ├── Topic_01_Supervised_Learning/
+    │   └── Topic_02_Unsupervised_Learning/
+    ├── student_3/                  # Student 3 Work directory
+    │   ├── Topic_01_Supervised_Learning/
+    │   └── Topic_02_Unsupervised_Learning/
+    └── student_4/                  # Student 4 Work directory
+        ├── Topic_01_Supervised_Learning/
+        └── Topic_02_Unsupervised_Learning/
+```
+
+### 👥 Student Progress Tracking Matrix
+
+| Student | Topic 1: Supervised Learning | Topic 2: Unsupervised Learning | Submission Link |
+| :--- | :---: | :---: | :--- |
+| **Student 1** | ⏳ Pending | ⏳ Pending | [`students/student_1/`](students/student_1/) |
+| **Student 2** | ⏳ Pending | ⏳ Pending | [`students/student_2/`](students/student_2/) |
+| **Student 3** | ⏳ Pending | ⏳ Pending | [`students/student_3/`](students/student_3/) |
+| **Student 4** | ⏳ Pending | ⏳ Pending | [`students/student_4/`](students/student_4/) |
+
+---
+
+## 📌 Submission Instructions for Students
+
+1. Navigate to your student folder under `students/student_<X>/`.
+2. Add your Jupyter Notebooks (`.ipynb`) or `.py` files inside `Topic_01_Supervised_Learning/` or `Topic_02_Unsupervised_Learning/`.
+3. Commit and push your changes to your assigned branch or open a Pull Request.
