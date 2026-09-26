@@ -86,16 +86,16 @@ AI-Engineering-Learning101/
 ├── 02_Unsupervised_Learning/       # Reference materials & instructor solutions
 │
 └── students/                       # Student Exercise Submissions
-    ├── student_1/                  # Student 1 Work directory
+    ├── harshil/                  # Student 1 Work directory
     │   ├── Topic_01_Supervised_Learning/
     │   └── Topic_02_Unsupervised_Learning/
-    ├── student_2/                  # Student 2 Work directory
+    ├── jay/                  # Student 2 Work directory
     │   ├── Topic_01_Supervised_Learning/
     │   └── Topic_02_Unsupervised_Learning/
-    ├── student_3/                  # Student 3 Work directory
+    ├── shrey/                  # Student 3 Work directory
     │   ├── Topic_01_Supervised_Learning/
     │   └── Topic_02_Unsupervised_Learning/
-    └── student_4/                  # Student 4 Work directory
+    └── vishal/                  # Student 4 Work directory
         ├── Topic_01_Supervised_Learning/
         └── Topic_02_Unsupervised_Learning/
 ```
@@ -104,10 +104,10 @@ AI-Engineering-Learning101/
 
 | Student | Topic 1: Supervised Learning | Topic 2: Unsupervised Learning | Submission Link |
 | :--- | :---: | :---: | :--- |
-| **Student 1** | ⏳ Pending | ⏳ Pending | [`students/student_1/`](students/student_1/) |
-| **Student 2** | ⏳ Pending | ⏳ Pending | [`students/student_2/`](students/student_2/) |
-| **Student 3** | ⏳ Pending | ⏳ Pending | [`students/student_3/`](students/student_3/) |
-| **Student 4** | ⏳ Pending | ⏳ Pending | [`students/student_4/`](students/student_4/) |
+| **harshil** | ⏳ Pending | ⏳ Pending | [`students/student_1/`](students/harshil/) |
+| **jay** | ⏳ Pending | ⏳ Pending | [`students/student_2/`](students/jay/) |
+| **Shrey** | ⏳ Pending | ⏳ Pending | [`students/student_3/`](students/shrey/) |
+| **vishal** | ⏳ Pending | ⏳ Pending | [`students/student_4/`](students/vishal/) |
 
 ---
 
